@@ -8,15 +8,15 @@ First get the code template by running:
     git clone https://github.com/jianyz/CSE446-17sp-kmean
     cd CSE446-17sp-kmean
 
-You will be modifying the file `kmean.py`. Q2.4.1 - Q2.4.3 are provided for you in `main.py`. To get the results for Q2.4.1 - 2.4.3, run:
+You will be modifying the file `kmean.py`. Q2.4.1 - Q2.4.3 are provided for you in `test.py`. To get the results for Q2.4.1 - 2.4.3, run:
 
-    python main.py
+    python test.py
 
 
 Note: Please use Python 2.7 for the assignment and only modify the `kmean.py` file. This is the only file you will be graded on. Report your results and plot for Q2.4.1 - Q2.4.3 and your answers for Q2.4.4-Q2.4.6 in your written assignment.
 
 ### The Data ###
-The data comes from a UN survey on people’s political priorities. You can find the original data here: [http://54.227.246.164/dataset/](http://54.227.246.164/dataset/). We have aggregated the data across countries in the file [country.csv](http://courses.cs.washington.edu/courses/cse446/17sp/hw4/country.csv). Each row lists the relative importance for each priority (between 0 and 1). 
+The data comes from a UN survey on people’s political priorities. We have aggregated the data across countries in the file [country.csv](http://courses.cs.washington.edu/courses/cse446/17sp/hw4/country.csv). Each row lists the relative importance for each priority (between 0 and 1). 
 
 You will cluster the data to find which countries are similar based on what the populations of those countries care about.
 
@@ -56,4 +56,4 @@ If there are K clusters total then the “sum of within group sum of squares” 
 
 Submit your modified `kmean.py` file and report your answers in your written assignment as a PDF file to the class dropbox here:
 
-[https://catalyst.uw.edu/collectit/assignment/dhlee4/40217](https://catalyst.uw.edu/collectit/assignment/dhlee4/40217)
+[https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/161182](https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/161182)

@@ -139,7 +139,9 @@ def train_kmean(data_set, centers, iter_limit):
 # TODO: helper function: compute within group sum of squares
 def within_group_ss(cluster, center):
     """
-    Compute the the within cluster sum of squares.
+    For each cluter, compute the sum of squares of euclidean distance
+    from each data point in the cluster to the empirical mean of this cluster.
+    Please note that the euclidean distance is squared in this function.
 
     Args:
         cluster: a list of data points.
@@ -155,6 +157,8 @@ def within_group_ss(cluster, center):
 # TODO: compute sum of within group sum of squares
 def sum_of_within_group_ss(clusters, centers):
     """
+    For total of k clusters, compute the sum of all k within_group_ss(cluster).
+
     Args:
         clusters: a list of clusters.
         centers: a list of centers of the given clusters.
