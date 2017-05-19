@@ -13,7 +13,7 @@ You will be modifying the file `kmean.py`. Q2.4.1 - Q2.4.3 are provided for you 
     python test.py
 
 
-Note: Please use Python 2.7 for the assignment and only modify the `kmean.py` file. This is the only file you will be graded on. Report your results and plot for Q2.4.1 - Q2.4.3 and your answers for Q2.4.4-Q2.4.6 in your written assignment.
+Note: Please use Python 2.7 for the assignment and only modify the `kmean.py` file. Your modified `kmean.py` will be tested on the original `test.py`. Please make sure your code compiles and behaves as expected with the original `test.py` file. Report your results and plot for Q2.4.1 - Q2.4.3 and your answers for Q2.4.4-Q2.4.6 along with your written assignment (problem 1) as a PDF file.
 
 ### The Data ###
 The data comes from a UN survey on people’s political priorities. We have aggregated the data across countries in the file [country.csv](http://courses.cs.washington.edu/courses/cse446/17sp/hw4/country.csv). Each row lists the relative importance for each priority (between 0 and 1). 
@@ -54,6 +54,6 @@ If there are K clusters total then the “sum of within group sum of squares” 
 
 ### Submitting ###
 
-Submit your modified `kmean.py` file and report your answers in your written assignment as a PDF file to the class dropbox here:
+Submit your modified `kmean.py` file and report your answers for Q2.4.1-Q2.4.6 in your written assignment as a PDF file to the class dropbox here:
 
 [https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/161182](https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/161182)
