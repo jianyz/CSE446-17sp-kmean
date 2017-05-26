@@ -128,7 +128,7 @@ def train_kmean(data_set, centers, iter_limit):
 
     Returns:
         centers: a list of updates centers/mean vectors.
-        clusters: a list of clusters. Each cluster is a list of data points vals.
+        clusters: a list of clusters. Each cluster is a list of data points.
         num_iterations: a number, num of iteration when converged.
     """
     clusters = [[] for x in range(len(centers))]
